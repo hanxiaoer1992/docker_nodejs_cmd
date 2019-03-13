@@ -8,7 +8,7 @@ module.exports = {
   dataBase: {
     host     : process.env.DATABASE_HOST || 'localhost',
     user     : process.env.DB_USER || 'root',
-    password : 'Yanan920924',
+    password : 'mysqlPassword',
     database : 'dockerTest',
     port: process.env.DB_PORT || '3306'
   },
