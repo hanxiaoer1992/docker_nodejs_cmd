@@ -1,6 +1,6 @@
 module.exports = {
-  host: 'localhost',
-  port: 7000,
+  host: '0.0.0.0',
+  port: 3000,
   swaggerConfig: {
     'title': 'Test API Documentation',
     'description': 'This is a sample example of API documentation.'
