@@ -25,5 +25,9 @@ catch (err) {
     console.log(err);
     process.exit(1);
 }
+process.on('SIGINT', () => {
+  console.log('SIGINT signal received.')
+  process.exit(1)
+})
 
 console.log('Server running at:', server.info.uri);
