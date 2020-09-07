@@ -29,7 +29,7 @@
     "hapi-cors-headers": "^1.0.3",
     "hapi-swagger": "^8.0.0",
     "http": "0.0.0",
-    "http-proxy": "^1.16.2",
+    "http-proxy": "^1.18.1",
     "inert": "^4.2.1",
     "json2csv": "^4.3.4",
     "moment": "^2.19.1",
